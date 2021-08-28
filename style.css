@@ -59,6 +59,51 @@ footer.footer {
     padding-top: 4rem;
 }
 
+table.showcase {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.showcase tr.logo td {
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+table.showcase tr.description td {
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+table.showcase td.onethird {
+    width: 33.3%;
+}
+
+table.showcase td.half {
+    width: 50%;
+}
+
+table.showcase td {
+    width: 33.3%;
+    font-weight: lighter;
+    color: #666666;
+}
+
+img.ios {
+    /*box-sizing: border-box;*/
+    border-radius: 20px;
+}
+
+table.showcase tr.logo a {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+table.showcase tr.logo a:hover {
+    text-decoration: none;
+    border-bottom: none;
+}
+
 /* footer.footer a  {
     border-bottom: none;
 } */
