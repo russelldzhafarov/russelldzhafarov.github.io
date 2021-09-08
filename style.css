@@ -61,14 +61,20 @@ table.showcase {
 }
 
 table.showcase tr.logo td {
-    padding-top: 1.5em;
+    padding-top: 1em;
     text-align: center;
 }
 
 table.showcase tr.description td {
     font-weight: normal;
     text-align: center;
+    padding-top: 1.5em;
     padding-bottom: 1.5em;
+}
+
+table.showcase tr.description td p {
+    margin-left: 0;
+    line-height: 0.5;
 }
 
 table.showcase td.onethird {
@@ -83,6 +89,7 @@ table.showcase td {
     width: 33.3%;
     font-weight: lighter;
     color: #666666;
+    vertical-align: top;
 }
 
 img.ios {
