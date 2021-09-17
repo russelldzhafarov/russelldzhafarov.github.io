@@ -74,11 +74,11 @@ table.showcase tr.description td {
 
 table.showcase tr.description td p {
     margin-left: 0;
-    line-height: 0.5;
+    line-height: 1.4;
 }
 
-table.showcase td.onethird {
-    width: 33.3%;
+table.showcase td.col {
+    width: 25%;
 }
 
 table.showcase td.half {
@@ -86,7 +86,8 @@ table.showcase td.half {
 }
 
 table.showcase td {
-    width: 33.3%;
+    padding: 0 15px;
+    width: 25%;
     font-weight: lighter;
     color: #666666;
     vertical-align: top;
