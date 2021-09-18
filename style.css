@@ -11,6 +11,59 @@ body {
     line-height: 1.4;
 }
 
+.t__sections {
+    margin-left: 30px;
+}
+
+.t__content {
+
+}
+
+.t__data {
+    display: flex;
+
+}
+
+.t__info {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.t__data h3 {
+    margin-top: 0;
+}
+
+.t__title {
+
+}
+
+.t__subtitle {
+
+}
+
+.t__date {
+    color: #57606a;
+}
+
+.t__bullet {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: #d8dee4;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+
+.t__line {
+    display: block;
+    width: 2px;
+    height: 100%;
+    background-color: #d8dee4;
+    transform: translate(6px, -6px);
+}
+
+
+
 .container header {
     display: flex;
 }
@@ -19,18 +72,18 @@ body {
     width: 300px;
     height: 300px;
     margin-right: 60px;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 header a {
     text-decoration: none;
 }
 
-header a:hover{
-    text-decoration: none;
+header h1 {
+    padding-top: 1.5rem;
 }
 
-.languages {
+.display_flex {
     display: flex;
 }
 
@@ -61,11 +114,11 @@ header a:hover{
 .btn-secondary {
     border-radius: 8px;
     background-color: white; 
-    color: #6c757d; 
-    border: 1px solid #6c757d;
+    color: #57606a; 
+    border: 1px solid #57606a;
 }
 .btn-secondary:hover {
-    background-color: #6c757d;
+    background-color: #57606a;
     color: white;
 }
 
@@ -81,20 +134,15 @@ header a:hover{
 
 .container h2 {
     font-size: 1.3rem;
+}
+
+.padding-top {
     padding-top: 1.5rem;
 }
 
 .container h3 {
     font-size: 1.1rem;
-    padding-top: 1rem;
-}
-
-.container section p {
-    margin-left: 30px;
-}
-
-.container section h3 {
-    margin-left: 30px;
+    /*padding-top: 1rem;*/
 }
 
 .container a {
@@ -144,32 +192,22 @@ table.showcase td {
     padding: 0 15px;
     width: 25%;
     font-weight: lighter;
-    color: #666666;
+    color: #57606a;
     vertical-align: top;
 }
 
-img.ios {
-    /*box-sizing: border-box;*/
-    border-radius: 20px;
-}
-
-table.showcase tr.logo a {
-    text-decoration: none;
-    border-bottom: none;
-}
-
-table.showcase tr.logo a:hover {
-    text-decoration: none;
-    border-bottom: none;
+.margin-left-30 {
+    margin-left: 30px;
 }
 
 .post-date {
     display: block;
     margin-top: -.5rem;
     margin-bottom: 1rem;
-    color:#9a9a9a
+    color: #57606a;
 }
 
-/* footer.footer a  {
-    border-bottom: none;
-} */
+footer {
+    font-size: 14px;
+    color: #57606a;
+}
