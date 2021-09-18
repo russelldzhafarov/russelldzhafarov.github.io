@@ -22,8 +22,12 @@ body {
     margin-top: 20px;
 }
 
-.about {
-    /*text-indent: 20px;*/
+header a {
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: none;
 }
 
 .languages {
@@ -38,23 +42,20 @@ body {
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 6px 12px 6px 0px;
     cursor: pointer;
     transition-duration: 0.3s;
-}
-.btn:hover {
-    
 }
 
 .btn-primary {
     border-radius: 8px;
-    border: 2px solid #0e6efd;
+    border: 1px solid #0e6efd;
     background-color: #0e6efd;
 }
 .btn-primary:hover {
     background-color: white; 
     color: #0e6efd; 
-    border: 2px solid #0e6efd;
+    border: 1px solid #0e6efd;
 }
 
 .btn-secondary {
@@ -98,9 +99,6 @@ body {
 
 .container a {
     text-decoration: none;
-}
-.container a:hover {
-    border-bottom: 1px solid black;
 }
 
 .container ul li:not(:last-child) {
