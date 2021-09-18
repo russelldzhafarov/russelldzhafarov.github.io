@@ -11,6 +11,57 @@ body {
     line-height: 1.4;
 }
 
+.container header {
+    display: flex;
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.about {
+    text-indent: 20px;
+}
+
+.languages {
+    display: flex;
+}
+
+.primary_btn {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px 18px;
+    border: 1px solid #1974d2;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1974d2;
+}
+
+.primary_btn:hover {
+    opacity: 90%;
+}
+
+.secondary_btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 2px solid #1974d2;
+    border-radius: 25px;
+    color: #1974d2;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.secondary_btn:hover {
+    opacity: 90%;
+}
+
 .container {
     max-width: 50rem;
     padding: 2em;
