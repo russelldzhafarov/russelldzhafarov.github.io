@@ -11,8 +11,12 @@ body {
     line-height: 1.4;
 }
 
+.flexbox {
+    display: flex;
+}
+
 .t__sections {
-    margin-left: 30px;
+    /*margin-left: 30px;*/
 }
 
 .t__content {
@@ -38,11 +42,15 @@ body {
 }
 
 .t__subtitle {
-
+    color: #57606a;
 }
 
 .t__date {
+    flex: 0 0 180px;
     color: #57606a;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 2px;
 }
 
 .t__bullet {
@@ -91,7 +99,7 @@ header a {
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    margin: 6px 12px 6px 0px;
+    margin: 6px 10px 6px 0px;
     cursor: pointer;
     transition-duration: 0.3s;
 }
@@ -99,12 +107,11 @@ header a {
 .btn-primary {
     border-radius: 8px;
     border: 1px solid #0e6efd;
-    background-color: #0e6efd;
+    color: #0e6efd;
 }
 .btn-primary:hover {
-    background-color: white; 
-    color: #0e6efd; 
-    border: 1px solid #0e6efd;
+    background-color: #0e6efd;
+    color: white;
 }
 
 .btn-secondary {
