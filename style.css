@@ -16,16 +16,13 @@ body {
 }
 
 .t__sections {
-    /*margin-left: 30px;*/
 }
 
 .t__content {
-
 }
 
 .t__data {
     display: flex;
-
 }
 
 .t__info {
@@ -70,17 +67,15 @@ body {
     transform: translate(6px, -6px);
 }
 
-
-
-.container header {
-    display: flex;
+.subtitle_color {
+    color: #57606a;
 }
 
 .photo {
     width: 300px;
     height: 300px;
     margin-right: 60px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 header a {
@@ -106,22 +101,23 @@ header a {
 
 .btn-primary {
     border-radius: 8px;
-    border: 1px solid #0e6efd;
-    color: #0e6efd;
+    border: 1.5px solid #0969da;
+    background-color: #0969da;
+    color: white;
 }
 .btn-primary:hover {
-    background-color: #0e6efd;
-    color: white;
+    background-color: white;
+    color: #0969da;
 }
 
 .btn-secondary {
     border-radius: 8px;
     background-color: white; 
     color: #57606a; 
-    border: 1px solid #57606a;
+    border: 1.5px solid #d8dee4;
 }
 .btn-secondary:hover {
-    background-color: #57606a;
+    background-color: #d8dee4;
     color: white;
 }
 
@@ -154,6 +150,10 @@ header a {
 
 .container ul li:not(:last-child) {
     margin-bottom: 0.3rem;
+}
+
+.container article {
+    margin-top: 50px;
 }
 
 footer.footer {
